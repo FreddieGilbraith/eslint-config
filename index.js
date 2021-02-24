@@ -1,7 +1,5 @@
 module.exports = {
   extends: "react-app",
-
-  rules: {
-    "require-yield": "off",
-  },
+  ignorePatterns: ["dist/**/*.js"],
+  rules: { "require-yield": "off" },
 };
